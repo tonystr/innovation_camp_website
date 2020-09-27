@@ -33,3 +33,7 @@ body > section {
 .why {
     font-size: 1.4rem;
 }
+
+img.children {
+    width: 100%;
+}
