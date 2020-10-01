@@ -34,10 +34,17 @@ nav {
 
 nav > a {
     font-size: 1.5rem;
-    padding: .7rem 1rem .2rem 1rem;
+    padding: .7rem 2rem .2rem 2rem;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     border-left: 1px solid #e6f2ea;
+    display: flex;
+    align-items: center; 
+}
+
+nav > a img {
+    width: 2.4rem;
+    margin-right: 14px;
 }
 
 nav > a:last-child {
