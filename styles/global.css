@@ -39,7 +39,7 @@ nav > a {
     border-bottom: 3px solid transparent;
     border-left: 1px solid #e6f2ea;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 nav > a img {
@@ -61,6 +61,8 @@ footer {
     background-color: #1e1e21;
     padding: 2rem;
     color: #c1c1d5;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer a {
