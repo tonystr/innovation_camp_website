@@ -1,6 +1,7 @@
 
 body {
     background-color: #e6f2ea;
+    overflow-x: hidden;
 }
 
 #home header {
@@ -26,14 +27,23 @@ body {
 
 body > section {
     width: 60rem;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+    max-width: 100%;
+    padding: 2rem calc(50vw - 30rem);
+    font-size: 1.4rem;
+    position: relative;
 }
 
-.why {
-    font-size: 1.4rem;
+#hvordan,
+#hvorfor {
+    background-color: #ffffff;
 }
 
 img.children {
     width: 100%;
+    max-width: 90vw;
+}
+
+.map {
+    float: right;
+    width: 300px;
 }

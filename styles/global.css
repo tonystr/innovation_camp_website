@@ -30,6 +30,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     border-bottom: 1px solid #e6f2ea;
+    z-index: 100;
 }
 
 nav > a {
